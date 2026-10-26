@@ -1,0 +1,33 @@
+{
+  "comment": "Rule mappings matching job descriptions to CVLauncher artifacts. cv_base_path is the local CVLauncher public CV directory.",
+  "cv_base_path": "/Users/rifaterdemsahin/projects/CVLauncher/5_Symbols/cvs/public",
+  "repo_cv_path": "assets/cvs",
+  "routing_rules": [
+    {
+      "role_cluster": ["AI Engineer", "GenAI", "Agentic AI", "Prompt Engineer", "LLM Systems"],
+      "match_keywords": ["ai engineer", "genai", "generative ai", "agentic", "prompt engineer", "llm", "rag", "ml engineer", "machine learning"],
+      "cv_files": ["cv_ai_engineer.pdf", "cv_llm_engineer.pdf", "cv_prompt_engineer.pdf"]
+    },
+    {
+      "role_cluster": ["Site Reliability Engineer", "SRE", "DevOps Engineer", "Cloud Infrastructure"],
+      "match_keywords": ["site reliability", "sre", "devops", "cloud infrastructure", "platform reliability", "devsecops"],
+      "cv_files": ["cv_sre_engineer.pdf", "cv_devops_engineer.pdf", "cv_senior_devops.pdf"]
+    },
+    {
+      "role_cluster": ["Platform Engineer", "Lead Platform Engineer", "Data Platform"],
+      "match_keywords": ["platform engineer", "data platform", "internal developer platform", "kubernetes", "aws", "azure platform", "cloud platform"],
+      "cv_files": ["cv_platform_engineer.pdf", "cv_data_platform_engineer.pdf", "cv_azure_platform_engineer.pdf"]
+    },
+    {
+      "role_cluster": ["Software Architect", "AI Architect", "Enterprise Architect", "Solutions Architect"],
+      "match_keywords": ["architect", "solution architecture", "enterprise architecture", "technical architecture"],
+      "cv_files": ["cv_solutions_architect.pdf", "cv_ai_solutions_architect.pdf", "cv_azure_architect.pdf", "cv_cloud_architect.pdf"]
+    },
+    {
+      "role_cluster": ["Product Manager", "Platform Product Manager"],
+      "match_keywords": ["product manager", "platform product", "product owner"],
+      "cv_files": ["cv_product_manager.pdf", "cv_product_owner.pdf"]
+    }
+  ],
+  "fallback_cv": "cv_sre_engineer.pdf"
+}

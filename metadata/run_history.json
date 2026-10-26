@@ -1,0 +1,24 @@
+{
+  "comment": "Execution run metadata, telemetry, timestamp logs, and deduplication IDs. application_ids dedupe across runs.",
+  "application_ids": [],
+  "runs": [
+    {
+      "ts": "2026-10-26T18:36:54.071893+00:00",
+      "type": "search",
+      "keywords": "AI Engineer",
+      "location": "Cambridge",
+      "parsed": 0,
+      "queued": 0,
+      "queue_file": "metadata/queues/queue-2026-10-26-cambridge.json"
+    },
+    {
+      "ts": "2026-10-26T18:39:15.823562+00:00",
+      "type": "search",
+      "keywords": "AI Engineer",
+      "location": "Cambridge",
+      "parsed": 75,
+      "queued": 10,
+      "queue_file": "metadata/queues/queue-2026-10-26-cambridge.json"
+    }
+  ]
+}
